@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/container" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ingresa_tus"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/ingresa_tus"
+            android:textAppearance="@style/ingresa_tus"
+            android:translationY="-2.62sp" />
+
+        <TextView
+            android:id="@+id/input_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/input_text"
+            android:layout_marginStart="20dp"
+            android:textAppearance="@style/input_text"
+            android:lineSpacingExtra="1sp"
+            android:translationY="-0.62sp"
+            android:gravity="top"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="Ingrese Correo"
+            />
+
+        <TextView
+            android:id="@+id/input_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/input_text_2"
+            android:layout_marginStart="20dp"
+            android:textAppearance="@style/input_text"
+            android:lineSpacingExtra="1sp"
+            android:translationY="-0.62sp"
+            android:gravity="top"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="Ingrese Contraseña"
+            />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/button_main"
+        android:layout_width="120dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="150dp"
+        android:elevation="8dp" >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ingresar"
+            android:background="@drawable/button"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/olvid_mi_co"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/olvid_mi_co"
+            android:layout_marginStart="140dp"
+            android:textAppearance="@style/olvid_mi_co" />
+
+        <TextView
+            android:id="@+id/si_no_tiene"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/si_no_tiene"
+            android:textAppearance="@style/si_no_tiene"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="40dp"
+            />
+        <Button
+            android:id="@+id/button_regresar"
+            android:layout_width="130dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:text="¡Registrate!"
+            android:textColor="#857777"
+            android:background="@drawable/button_registrar"
+            android:layout_marginStart="140dp"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>

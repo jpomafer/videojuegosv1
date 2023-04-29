@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MiVideoJuegov1</string>
+    <!-- strings.xml -->
+    <string name="bienvenido_">
+        Bienvenido a la mejor ¡App de descuentos!
+    </string>
+    <string name="ingresa_tus">
+        Ingresa tus datos
+    </string>
+    <string name="input_text">
+        Correo:
+    </string>
+    <string name="input_text_2">
+        Contraseña:
+    </string>
+    <string name="olvid_mi_co">
+        Olvide mi contraseña
+    </string>
+    <string name="si_no_tiene">
+        Si no tienes una cuenta, que esperas...
+    </string>
+</resources>
