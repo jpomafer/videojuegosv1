@@ -1,9 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistroActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#4C3BF2"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:text="Registrate"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:text="Información personal"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="Nombre(s)"
+        android:textColor="#000000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="170dp"
+        android:textSize="14dp"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="210dp"
+        android:background="@android:color/black"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="79dp"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="Apellido(s)"
+        android:textColor="#000000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:textSize="14dp"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="290dp"
+        android:background="@android:color/black"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="79dp"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="Datos de ingreso"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="340dp"
+        android:textSize="14dp"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="Correo"
+        android:textColor="#000000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="380dp"
+        android:textSize="14dp"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="410dp"
+        android:background="@android:color/black"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="79dp"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="Contraseña"
+        android:textColor="#000000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="440dp"
+        android:textSize="14dp"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="470dp"
+        android:background="@android:color/black"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="79dp"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="Repetir contraseña"
+        android:textColor="#000000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="500dp"
+        android:textSize="14dp"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="530dp"
+        android:background="@android:color/black"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="79dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="83dp"
+        android:src="@drawable/button_confirm" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_eye_off"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="300dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_eye_off"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="300dp"/>
+
+</RelativeLayout>
