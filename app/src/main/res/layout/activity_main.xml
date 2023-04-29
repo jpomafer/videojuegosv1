@@ -72,6 +72,7 @@
             android:layout_marginLeft="50dp"
             android:layout_marginTop="10dp"
             android:hint="Ingrese Contraseña"
+            android:drawableRight="@drawable/ic_eye_on_off"
             />
 
 
