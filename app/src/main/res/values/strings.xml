@@ -19,4 +19,5 @@
     <string name="si_no_tiene">
         Si no tienes una cuenta, que esperas...
     </string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
